@@ -1,0 +1,27 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 130px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /* Dark Gradient Background */
+    background: linear-gradient(145deg, #0f0c29, #302b63);
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fffbfb;
+    text-decoration: none; /* Corrected property value */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for color and transform */
+  }
+  
+  .sidebar a:hover {
+    color: #ffffff; /* Slightly brighter color on hover for interaction feedback */
+    transform: scale(1.05); /* Slightly scale up the link to provide feedback */
+    text-decoration: none; /* Ensure no underline appears */
+  }
+  

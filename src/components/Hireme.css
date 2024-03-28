@@ -1,0 +1,66 @@
+/* src/components/HireMe.css */
+
+.hire-me-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .title {
+    color: #ffffff;
+  }
+  
+  .intro-text {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .form-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submit-btn {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #007BFF 0%, #28A745 100%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(135deg, #0069d9 0%, #218838 100%);
+  }
+  
+  .additional-content {
+    margin-top: 40px;
+  }
+  
